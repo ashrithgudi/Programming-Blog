@@ -1,0 +1,84 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 92, 226);
+    padding-bottom: 30px;
+    background-color: rgb(89, 87, 86);
+}
+.nav{
+    background-color: rgb(140, 255, 253);
+    position: fixed;
+}
+.nav .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+    font-size: 45px;
+    padding: 50px;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sample{
+    background-image: url("4.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sample h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sample p{
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: left;
+}
+section{
+    background-image: url("3.jpg");
+    background-size: cover;
+}
+.content h2{
+    text-align: left;
+    font-size: 40px;
+}
+.content p{
+    margin: 20px;
+    letter-spacing: 1.5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.nav.active{
+    background-color: blue;
+}
+.nav.active a{
+ color: aqua;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav.active .container{
+padding: 10px;
+}
+.nav.a:hover{
+    color: azure;
+}
+.nav .container h1{
+    color: aquamarine;
+}
